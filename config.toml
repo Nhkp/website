@@ -1,5 +1,5 @@
 baseURL = "http://lokhidor.xyz"
-title = "Clément"
+title = "Clément Palézis"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -12,9 +12,9 @@ enableEmoji = true
 # disqusShortname = "yourdiscussshortname"
 
 [params]
-author = "Clément"
+author = "Clément Palézis"
 license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "Clément's personal website"
+description = "Clément Palézis' personal website"
 keywords = "blog,developer,personal"
 info = ["HPC developer", "Blockchain enthusiast"]
 # avatarURL = "images/avatar.jpg"
