@@ -6,6 +6,15 @@
 [![GitLab][gitlab-shield]][gitlab-url]
 [![IPFS][IPFS-shield]][IPFS-url]
 
+<br />
+<div align="center">
+  <a href="lokhidor.xyz">
+    <img src="website_screenshot.png">
+  </a>
+
+  <h3 align="center">Clément Palézis' personal page</h3>
+</div>
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
