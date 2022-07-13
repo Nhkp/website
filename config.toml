@@ -73,7 +73,7 @@ customJS = []
 [params.csp]
 childsrc = ["'self'"]
 fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
-formaction = ["'self'"]
+formaction = ["'self'", "https://forms.un-static.com/"]
 framesrc = ["'self'"]
 imgsrc = ["'self'"]
 objectsrc = ["'none'"]
@@ -155,7 +155,7 @@ weight = 3
 url = "projects/"
 
 [[languages.en.menu.main]]
-name = "Contact me"
+name = "Contact"
 weight = 5
 url = "contact/"
 
