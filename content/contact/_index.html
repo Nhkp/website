@@ -1,54 +1,53 @@
----
-title: "Contact"
-date: "2022-06-24"
----
+<style>
+  form { max-width:420px; margin:100px auto; }
 
-<!-- <form method="post" action="https://forms.un-static.com/forms/7395000247a729b38e89c57222ac2f3b3b32f4c3">
-  <div class="form-group row">
-    <label for="name" class="col-4 col-form-label">Name</label>
-    <div class="col-8">
-      <div class="input-group">
-        <div class="input-group-addon">
-          <i class="fa fa-user"></i>
-        </div>
-        <input id="name" name="name" placeholder="Please enter your name" type="text" required="required" class="form-control">
-      </div>
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="email" class="col-4 col-form-label">E-mail address</label>
-    <div class="col-8">
-      <div class="input-group">
-        <div class="input-group-addon">
-          <i class="fa fa-envelope"></i>
-        </div>
-        <input id="email" name="email" placeholder="Your e-mail address" type="text" required="required" class="form-control">
-      </div>
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="message" class="col-4 col-form-label">Message</label>
-    <div class="col-8">
-      <textarea id="message" name="message" cols="40" rows="10" required="required" class="form-control"></textarea>
-    </div>
-  </div>
-  <div class="form-group row">
-    <div class="offset-4 col-8">
-      <button name="submit" type="submit" class="btn btn-primary">Send</button>
-    </div>
-  </div>
-  <div class="text-center">
+.feedback-input {
+  color:#DADADA;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid transparent;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #424242; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  width: 100%;
+  background:transparent;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:#DADADA;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#424242; }
+</style>
+
+<form method="post" action="https://forms.un-static.com/forms/7395000247a729b38e89c57222ac2f3b3b32f4c3">      
+  <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+  <input type="submit" value="SUBMIT"/>
+  <!-- <div class="text-center">
     <p><small>(Powered by <a rel="nofollow" href="Un-static Forms">Un-static Forms</a>)</small></p>
-  </div>
-</form> -->
-
-
-<form method="post" action="https://forms.un-static.com/forms/7395000247a729b38e89c57222ac2f3b3b32f4c3">
-  <input type="text" name="name" placeholder="Enter your name" required>
-  <input type="email" name="email" placeholder="Enter your e-mail address" required>
-  <textarea name="message" cols="40" rows="15"></textarea>
-  <button type="submit">Send</button>
-  <div class="text-center">
-    <p><small>(Powered by <a rel="nofollow" href="Un-static Forms">Un-static Forms</a>)</small></p>
-  </div>
+  </div> -->
 </form>
