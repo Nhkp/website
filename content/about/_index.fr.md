@@ -1,0 +1,1 @@
+![cv_fr](/images/cv_fr.png)

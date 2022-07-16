@@ -1,1 +1,1 @@
-![cv](/images/cv.png)
+![cv_en](/images/cv_en.png)
