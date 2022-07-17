@@ -8,11 +8,11 @@
 
 <br />
 <div align="center">
-  <a href="lokhidor.xyz">
+  <a href="https://www.lokhidor.xyz">
     <img src="website_screenshot.png">
   </a>
 
-  <h3 align="center">Clément Palézis' personal page</h3>
+  <h3 align="center">Clément Palézis' personal <a href="https://www.lokhidor.xyz">page</a></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
